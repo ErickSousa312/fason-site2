@@ -1,0 +1,138 @@
+.footer {
+  color: #000;
+  padding: 50px 0;
+  background: #ffffffb0;
+  box-shadow: 2px 5px 6px 0 rgba(59, 40, 70, 0.37);
+  -webkit-backdrop-filter: blur( 4px );
+  backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .footerContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footerSection {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .footerSection h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footerSection p {
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .socialLinks li {
+    display: inline-block;
+    margin-right: 10px;
+    background: #000000;
+    padding: 0.6em 6.5px;
+    border-radius: 3px 15px 3px 15px;
+    text-decoration: none;
+    box-shadow: 3px 5px 6px 0 rgba(59, 40, 70, 0.37);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    color: #e5810f;
+  }
+  
+  .socialLinks li:last-child {
+    margin-right: 0;
+  }
+  
+  .socialLinks a {
+    color: #e5810f;;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .footerBottom {
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .footerBottom p {
+    font-size: 16px;
+    margin: 0;
+  }
+  .whats{
+    display: inline-block;
+    margin-right: 10px;
+    background: #000000;
+    padding: 0.6em 6.5px;
+    border-radius: 3px 15px 3px 15px;
+    text-decoration: none;
+    box-shadow: 3px 5px 6px 0 rgba(59, 40, 70, 0.37);
+    user-select: none;
+    color: #e5810f;
+  }
+
+  .whats:active{
+    background-color:#3b3b3b!important;
+}
+
+
+.whats:hover{
+    background-position: right center;
+    background-size: 200% auto; 
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1s infinite;
+}
+
+
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #010a0cfd;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }
+
+
+
+  .lista:active{
+    background-color:#3b3b3b!important;
+}
+
+
+.lista:hover{
+    background-position: right center;
+    background-size: 200% auto; 
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1s infinite;
+}
+
+
+@keyframes pulse512 {
+    0% {
+     box-shadow: 0 0 0 0 #010a0cfd;
+    }
+   
+    70% {
+     box-shadow: 0 0 0 10px rgb(218 103 68 / 0%);
+    }
+   
+    100% {
+     box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
+    }
+   }

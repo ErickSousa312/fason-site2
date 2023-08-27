@@ -1,0 +1,63 @@
+.nav {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.9em 0.7em;
+  border-radius: 5px 25px 5px 25px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  background: #7f6f250d;
+  box-shadow: 0px 0px 6px 0 #000000;
+  -webkit-backdrop-filter: blur( 5px );
+  backdrop-filter: blur( 8px );
+  border: 1px solid rgba(255, 255, 255, 0);
+  z-index: 4;
+  height: 6rem;
+}
+
+.logo2{
+  position: relative;
+  height: 8rem;
+  width: 9rem;
+  aspect-ratio: 4/3;
+}
+
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    justify-content: center;
+    width: 70%;
+}
+
+.li {
+  margin: 0 10px;
+}
+
+.logo{
+  width: 15%;
+}
+
+.inputSearch {
+  padding: 8px 12px;
+  border-bottom: white 1px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  opacity: 0;
+  border-radius: 17px;
+  transform: scale(0.6);
+  transition:  transform 0.3s ease-in-out, visibility 0s linear 0.3s;
+}
+
+.inputSearchVisible {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
+  border: white solid 2px;
+  border-radius: 17px;
+}
