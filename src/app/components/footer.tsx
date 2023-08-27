@@ -22,7 +22,7 @@ const Footer = () => {
 
         </Link>
         <br/>
-        <Link href={'https://api.whatsapp.com/send?phone=5575991056193&text=Ol%C3%A1!%20Gostaria%20de%20ter%20os%20produtos%20da%20Fason%20em%20minha%20loja,%20como%20fa%C3%A7o?'}>
+        <Link href={'https://www.fasoncouro.com.br/_files/ugd/43d7e5_903ad23d6fc44fc69e88fd74a6f8c82c.pdf'}>
           <h3 className={styles.whats}>Catálogo <AiOutlineFolder /></h3>
 
         </Link>
